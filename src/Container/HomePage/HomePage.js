@@ -1,13 +1,7 @@
 import React, {Component} from "react";
 import Header from "../../Components/Header/Header";
-// import HotelIcon from '@material-ui/icons/Hotel';
-// import CheckCircleOutlineIcon from '@material-ui/icons/CheckCircleOutline';
-// import LocalParkingIcon from '@material-ui/icons/LocalParking';
-// import CancelOutlinedIcon from '@material-ui/icons/CancelOutlined';
-// import {Footer} from "../../Components/Footer/Footer";
 import {connect} from "react-redux";
 import {User} from "../../actions/getUser";
-// import Photo from '../../assets/westindtla.jpg'
 import '../../Container/HomePage/HomePage.css'
 import axios from "axios";
 import CircularProgress from "@material-ui/core/CircularProgress";
@@ -23,26 +17,15 @@ class UserList extends Component {
             email:'',
             search: ''
         };
-
-
-
-        // this.onChange = this.onChange.bind(this);
     }
 
     updateSearch(event) {
         this.setState({search: event.target.value.substr(0,20)})
     }
-    // onChange(e) {
-    //     this.setState({[e.target.name]: e.target.value})
-    // }
-
-
+   
     componentDidMount() {
         this.props.fetchData("http://localhost:5000/users/findAllUser")
     }
-
-
-
 
 
     deleteUser = id => {
