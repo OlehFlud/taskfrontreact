@@ -1,0 +1,16 @@
+.not-found-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.not-found-page__btn {
+    margin-bottom: 40px;
+}
+
+.NotFound {
+    max-width: 65%;
+}

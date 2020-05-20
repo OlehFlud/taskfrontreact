@@ -1,0 +1,114 @@
+.UserCard{
+    width: 800px;
+    height: 100px;
+    margin-top: 0.7rem;
+    /*background: #f0f0f0;*/
+    color: black;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 0 5px black;
+    transition: 0.5s ease-out;
+    margin-left: 200px;
+}
+
+
+.ListRoom_Home_Page {
+    padding: 1rem 5rem 1rem 5rem;
+}
+
+
+
+.display-flex {
+    display: flex;
+justify-content: space-around;
+    margin-left: 0.5rem;
+}
+
+.loading_Room {
+    margin-left: 50%;
+}
+
+.Some_Options {
+    height: 3rem;
+}
+
+.Control_Btn {
+    background: none;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: "Open Sans", sans-serif;
+    border: 1px solid grey;
+    border-radius: 0.4rem;
+    width: 8rem;
+    height: 2.5rem;
+    margin: 0.5rem;
+    text-align: center;
+    padding-top: 0.5rem;
+    transition: 0.3s;
+}
+
+.Control_Btn:hover {
+    width: 8.25rem;
+    height: 2.75rem;
+    transition: 0.3s;
+    padding-top: 0.75rem;
+    box-shadow: 0 0 3px black;
+}
+.Delete {
+    background: #a94240;
+}
+
+.Update {
+    background: #3498db;
+}
+
+.Reserve {
+    background: green;
+}
+
+
+.lineAddRoomBtn {
+    height: 3px;
+    width: 100%;
+    background: darkgoldenrod;
+}
+
+.transRot {
+    transform: rotate(90deg);
+    margin-top: -0.15rem;
+}
+
+.addRoom:hover {
+    box-shadow: 0 0 4px black;
+}
+
+.Hide {
+    display: none;
+    transition: 0.5s ease-out;
+}
+
+.Friend{
+    font-size: 2rem;
+    font-family: "Open Sans", sans-serif;
+    color: black;
+    margin-left: 0.5rem;
+
+}
+
+.Main{
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 2rem;
+}
+.SearchInput{
+    margin-left: 200px;
+}
+.Pending{
+    display: flex;
+    justify-content: center;
+
+    padding-top: 20px;
+
+}

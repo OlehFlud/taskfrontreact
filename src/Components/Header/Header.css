@@ -1,0 +1,63 @@
+.Header {
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    transition: 0.5s;
+    box-shadow: 0 0 5px black;
+    border-bottom: 3px solid darkgoldenrod;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(240, 255, 255, 0.7)
+}
+
+.scroller {
+    height: 80px;
+    margin-top: 0;
+    transition: 0.5s;
+    position: fixed;
+    background: white;
+    opacity: 100;
+}
+
+.LogoHeader {
+    text-decoration: none;
+    width: fit-content;
+    color: black;
+    font-size: 3rem;
+    font-family: 'Cambria Math', sans-serif;
+}
+
+.Logo_lviv {
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Authentications_Box {
+    width: fit-content;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Authentications_link,
+.Welcome {
+    color: black;
+    font-size: 1rem;
+    font-family: "Comic Sans MS", sans-serif;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+.Authentications_link:hover,
+.LogoHeader:hover {
+    text-shadow: 0 0 2px grey;
+}
+
+.ulNav{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+}
+
